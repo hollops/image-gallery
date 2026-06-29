@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+  list-style: none;
+  gap: 1rem;
+  margin-top: 40px;
+  text-transform: capitalize;
+  
+}
+.list li button{
+  border: none;
+  background-color:w;
+  color: black;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+.list li button:hover,
+.list li button.active{
+  background-color: #535A67;
+  color: white;
+}
+.list-1{
+  margin-left: 10px;
+}
+.list-2{
+  margin-right: 10px;
+}
+
